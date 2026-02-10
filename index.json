@@ -1,0 +1,246 @@
+{
+  "items": [
+    {
+      "slug": "divide-an-array-into-subarrays-with-minimum-cost-ii",
+      "name": "Divide an Array Into Subarrays With Minimum Cost II",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sliding Window",
+        "Heap (Priority Queue)"
+      ],
+      "path": "hard/divide-an-array-into-subarrays-with-minimum-cost-ii/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "add-two-numbers",
+      "name": "Add Two Numbers",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Math",
+        "Recursion"
+      ],
+      "path": "medium/add-two-numbers/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "group-anagrams",
+      "name": "Group Anagrams",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "path": "medium/group-anagrams/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "longest-consecutive-sequence",
+      "name": "Longest Consecutive Sequence",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Union-Find"
+      ],
+      "path": "medium/longest-consecutive-sequence/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "product-of-array-except-self",
+      "name": "Product of Array Except Self",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "path": "medium/product-of-array-except-self/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "sort-an-array",
+      "name": "Sort an Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Merge Sort",
+        "Bucket Sort",
+        "Radix Sort",
+        "Counting Sort"
+      ],
+      "path": "medium/sort-an-array/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "sort-colors",
+      "name": "Sort Colors",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "path": "medium/sort-colors/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "top-k-frequent-elements",
+      "name": "Top K Frequent Elements",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting",
+        "Quickselect"
+      ],
+      "path": "medium/top-k-frequent-elements/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "contains-duplicate",
+      "name": "Contains Duplicate",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "path": "easy/contains-duplicate/solution.c",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+      "name": "Divide an Array Into Subarrays With Minimum Cost I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sorting",
+        "Enumeration"
+      ],
+      "path": "easy/divide-an-array-into-subarrays-with-minimum-cost-i/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "minimum-absolute-difference",
+      "name": "Minimum Absolute Difference",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sorting"
+      ],
+      "path": "easy/minimum-absolute-difference/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "palindrome-number",
+      "name": "Palindrome Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Math"
+      ],
+      "path": "easy/palindrome-number/solution.c",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "remove-element",
+      "name": "Remove Element",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Two Pointers"
+      ],
+      "path": "easy/remove-element/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "reverse-string",
+      "name": "Reverse String",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/reverse-string/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "roman-to-integer",
+      "name": "Roman to Integer",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Math",
+        "String"
+      ],
+      "path": "easy/roman-to-integer/solution.c",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "trionic-array-i",
+      "name": "Trionic Array I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array"
+      ],
+      "path": "easy/trionic-array-i/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "two-sum",
+      "name": "Two Sum",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "path": "easy/two-sum/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "valid-anagram",
+      "name": "Valid Anagram",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "path": "easy/valid-anagram/solution.c",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "valid-palindrome",
+      "name": "Valid Palindrome",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "path": "easy/valid-palindrome/solution.cpp",
+      "date_solved": "2026-02-10"
+    },
+    {
+      "slug": "valid-palindrome-ii",
+      "name": "Valid Palindrome II",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String",
+        "Greedy"
+      ],
+      "path": "easy/valid-palindrome-ii/solution.cpp",
+      "date_solved": "2026-02-10"
+    }
+  ]
+}
