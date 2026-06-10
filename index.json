@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "maximum-total-subarray-value-ii",
+      "name": "Maximum Total Subarray Value II",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Greedy",
+        "Segment Tree",
+        "Heap (Priority Queue)"
+      ],
+      "path": "hard/maximum-total-subarray-value-ii/solution.cpp",
+      "date_solved": "2026-06-10"
+    },
+    {
       "slug": "lucky-numbers-in-a-matrix",
       "name": "Lucky Numbers in a Matrix",
       "difficulty": "Easy",
