@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "lucky-numbers-in-a-matrix",
+      "name": "Lucky Numbers in a Matrix",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix"
+      ],
+      "path": "easy/lucky-numbers-in-a-matrix/solution.cpp",
+      "date_solved": "2026-06-10"
+    },
+    {
       "slug": "divide-an-array-into-subarrays-with-minimum-cost-ii",
       "name": "Divide an Array Into Subarrays With Minimum Cost II",
       "difficulty": "Hard",
