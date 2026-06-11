@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "number-of-ways-to-assign-edge-weights-i",
+      "name": "Number of Ways to Assign Edge Weights I",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "Tree",
+        "Depth-First Search"
+      ],
+      "path": "medium/number-of-ways-to-assign-edge-weights-i/solution.cpp",
+      "date_solved": "2026-06-11"
+    },
+    {
       "slug": "maximum-total-subarray-value-ii",
       "name": "Maximum Total Subarray Value II",
       "difficulty": "Hard",
