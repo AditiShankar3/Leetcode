@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "number-complement",
+      "name": "Number Complement",
+      "difficulty": "Easy",
+      "topics": [
+        "Bit Manipulation"
+      ],
+      "path": "easy/number-complement/solution.cpp",
+      "date_solved": "2026-06-13"
+    },
+    {
       "slug": "weighted-word-mapping",
       "name": "Weighted Word Mapping",
       "difficulty": "Easy",
