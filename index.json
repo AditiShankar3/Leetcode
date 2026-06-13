@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "mirror-distance-of-an-integer",
+      "name": "Mirror Distance of an Integer",
+      "difficulty": "Easy",
+      "topics": [
+        "Math"
+      ],
+      "path": "easy/mirror-distance-of-an-integer/solution.cpp",
+      "date_solved": "2026-06-13"
+    },
+    {
       "slug": "number-complement",
       "name": "Number Complement",
       "difficulty": "Easy",
