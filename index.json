@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "weighted-word-mapping",
+      "name": "Weighted Word Mapping",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String",
+        "Simulation"
+      ],
+      "path": "easy/weighted-word-mapping/solution.cpp",
+      "date_solved": "2026-06-13"
+    },
+    {
       "slug": "symmetric-tree",
       "name": "Symmetric Tree",
       "difficulty": "Easy",
