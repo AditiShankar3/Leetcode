@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "min-stack",
+      "name": "Min Stack",
+      "difficulty": "Medium",
+      "topics": [
+        "Stack",
+        "Design"
+      ],
+      "path": "medium/min-stack/solution.cpp",
+      "date_solved": "2026-06-13"
+    },
+    {
       "slug": "mirror-distance-of-an-integer",
       "name": "Mirror Distance of an Integer",
       "difficulty": "Easy",
