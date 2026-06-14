@@ -21,6 +21,17 @@
       "date_solved": "2026-06-14"
     },
     {
+      "slug": "reverse-linked-list",
+      "name": "Reverse Linked List",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "path": "easy/reverse-linked-list/solution.cpp",
+      "date_solved": "2026-06-14"
+    },
+    {
       "slug": "min-stack",
       "name": "Min Stack",
       "difficulty": "Medium",
