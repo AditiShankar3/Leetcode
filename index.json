@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "frequency-balance-subarray",
+      "name": "Frequency Balance Subarray",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/frequency-balance-subarray/solution.cpp",
+      "date_solved": "2026-06-14"
+    },
+    {
       "slug": "maximum-twin-sum-of-a-linked-list",
       "name": "Maximum Twin Sum of a Linked List",
       "difficulty": "Medium",
