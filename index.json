@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "name": "Maximum Twin Sum of a Linked List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers",
+        "Stack"
+      ],
+      "path": "medium/maximum-twin-sum-of-a-linked-list/solution.cpp",
+      "date_solved": "2026-06-14"
+    },
+    {
       "slug": "min-stack",
       "name": "Min Stack",
       "difficulty": "Medium",
