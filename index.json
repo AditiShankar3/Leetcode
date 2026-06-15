@@ -12,6 +12,14 @@
       "date_solved": "2026-06-15"
     },
     {
+      "slug": "maximize-sum-of-device-ratings",
+      "name": "Maximize Sum of Device Ratings",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/maximize-sum-of-device-ratings/solution.cpp",
+      "date_solved": "2026-06-15"
+    },
+    {
       "slug": "removing-stars-from-a-string",
       "name": "Removing Stars From a String",
       "difficulty": "Medium",
