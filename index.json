@@ -12,6 +12,18 @@
       "date_solved": "2026-06-15"
     },
     {
+      "slug": "removing-stars-from-a-string",
+      "name": "Removing Stars From a String",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Stack",
+        "Simulation"
+      ],
+      "path": "medium/removing-stars-from-a-string/solution.cpp",
+      "date_solved": "2026-06-15"
+    },
+    {
       "slug": "frequency-balance-subarray",
       "name": "Frequency Balance Subarray",
       "difficulty": "Medium",
