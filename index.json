@@ -32,6 +32,17 @@
       "date_solved": "2026-06-15"
     },
     {
+      "slug": "middle-of-the-linked-list",
+      "name": "Middle of the Linked List",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "easy/middle-of-the-linked-list/solution.cpp",
+      "date_solved": "2026-06-15"
+    },
+    {
       "slug": "frequency-balance-subarray",
       "name": "Frequency Balance Subarray",
       "difficulty": "Medium",
