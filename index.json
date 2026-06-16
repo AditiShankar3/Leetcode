@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "process-string-with-special-operations-i",
+      "name": "Process String with Special Operations I",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Simulation"
+      ],
+      "path": "medium/process-string-with-special-operations-i/solution.cpp",
+      "date_solved": "2026-06-16"
+    },
+    {
       "slug": "delete-the-middle-node-of-a-linked-list",
       "name": "Delete the Middle Node of a Linked List",
       "difficulty": "Medium",
