@@ -12,6 +12,17 @@
       "date_solved": "2026-06-16"
     },
     {
+      "slug": "pascals-triangle",
+      "name": "Pascal's Triangle",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "easy/pascals-triangle/solution.cpp",
+      "date_solved": "2026-06-16"
+    },
+    {
       "slug": "delete-the-middle-node-of-a-linked-list",
       "name": "Delete the Middle Node of a Linked List",
       "difficulty": "Medium",
