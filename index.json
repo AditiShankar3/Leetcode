@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "remove-nth-node-from-end-of-list",
+      "name": "Remove Nth Node From End of List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "path": "medium/remove-nth-node-from-end-of-list/solution.cpp",
+      "date_solved": "2026-06-17"
+    },
+    {
       "slug": "process-string-with-special-operations-i",
       "name": "Process String with Special Operations I",
       "difficulty": "Medium",
