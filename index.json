@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "process-string-with-special-operations-ii",
+      "name": "Process String with Special Operations II",
+      "difficulty": "Hard",
+      "topics": [
+        "String",
+        "Simulation"
+      ],
+      "path": "hard/process-string-with-special-operations-ii/solution.cpp",
+      "date_solved": "2026-06-17"
+    },
+    {
       "slug": "remove-nth-node-from-end-of-list",
       "name": "Remove Nth Node From End of List",
       "difficulty": "Medium",
