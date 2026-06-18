@@ -11,6 +11,17 @@
       "date_solved": "2026-06-18"
     },
     {
+      "slug": "remove-linked-list-elements",
+      "name": "Remove Linked List Elements",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "path": "easy/remove-linked-list-elements/solution.cpp",
+      "date_solved": "2026-06-18"
+    },
+    {
       "slug": "process-string-with-special-operations-ii",
       "name": "Process String with Special Operations II",
       "difficulty": "Hard",
