@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "angle-between-hands-of-a-clock",
+      "name": "Angle Between Hands of a Clock",
+      "difficulty": "Medium",
+      "topics": [
+        "Math"
+      ],
+      "path": "medium/angle-between-hands-of-a-clock/solution.cpp",
+      "date_solved": "2026-06-18"
+    },
+    {
       "slug": "process-string-with-special-operations-ii",
       "name": "Process String with Special Operations II",
       "difficulty": "Hard",
