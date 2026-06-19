@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "find-the-highest-altitude",
+      "name": "Find the Highest Altitude",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "path": "easy/find-the-highest-altitude/solution.cpp",
+      "date_solved": "2026-06-19"
+    },
+    {
       "slug": "angle-between-hands-of-a-clock",
       "name": "Angle Between Hands of a Clock",
       "difficulty": "Medium",
