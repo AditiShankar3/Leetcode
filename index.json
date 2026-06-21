@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "maximum-manhattan-distance-after-all-moves",
+      "name": "Maximum Manhattan Distance After All Moves",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/maximum-manhattan-distance-after-all-moves/solution.cpp",
+      "date_solved": "2026-06-21"
+    },
+    {
       "slug": "average-time-of-process-per-machine",
       "name": "Average Time of Process per Machine",
       "difficulty": "Easy",
