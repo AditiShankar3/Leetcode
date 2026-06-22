@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "maximum-number-of-balloons",
+      "name": "Maximum Number of Balloons",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "path": "easy/maximum-number-of-balloons/solution.cpp",
+      "date_solved": "2026-06-22"
+    },
+    {
       "slug": "maximum-manhattan-distance-after-all-moves",
       "name": "Maximum Manhattan Distance After All Moves",
       "difficulty": "Medium",
