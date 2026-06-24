@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "climbing-stairs",
+      "name": "Climbing Stairs",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Dynamic Programming",
+        "Memoization"
+      ],
+      "path": "easy/climbing-stairs/solution.cpp",
+      "date_solved": "2026-06-24"
+    },
+    {
       "slug": "maximum-number-of-balloons",
       "name": "Maximum Number of Balloons",
       "difficulty": "Easy",
