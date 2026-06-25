@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "counting-bits",
+      "name": "Counting Bits",
+      "difficulty": "Easy",
+      "topics": [
+        "Dynamic Programming",
+        "Bit Manipulation"
+      ],
+      "path": "easy/counting-bits/solution.cpp",
+      "date_solved": "2026-06-25"
+    },
+    {
       "slug": "climbing-stairs",
       "name": "Climbing Stairs",
       "difficulty": "Easy",
