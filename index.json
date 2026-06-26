@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "merge-two-sorted-lists",
+      "name": "Merge Two Sorted Lists",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "path": "easy/merge-two-sorted-lists/solution.cpp",
+      "date_solved": "2026-06-26"
+    },
+    {
       "slug": "counting-bits",
       "name": "Counting Bits",
       "difficulty": "Easy",
