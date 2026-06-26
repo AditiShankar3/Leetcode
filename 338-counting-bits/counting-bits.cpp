@@ -1,18 +1,13 @@
 class Solution {
 public:
-    vector<int> toBinary(vector<int>& ans,int n)
-    {
-        if(n==0)
-        {
-            ans[0]=0;
-            return ans;
-        }
-        string bin=bitset<32>(n).to_string();
-        ans[n]=count(bin.begin(),bin.end(),'1');
-        return toBinary(ans,n-1);
-    }
     vector<int> countBits(int n) {
         vector<int> ans(n+1);
-        return toBinary(ans,n);
+        int offset=1;
+        for(int i=1;i<n+1;i++){
+            if(offset*2==i)
+                offset*=2;
+            ans[i]=ans[i-offset]+1;
+        }
+        return ans;
     }
 };
