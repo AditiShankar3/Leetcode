@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "slug": "sort-list",
+      "name": "Sort List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers",
+        "Divide and Conquer",
+        "Sorting",
+        "Merge Sort"
+      ],
+      "path": "medium/sort-list/solution.cpp",
+      "date_solved": "2026-06-26"
+    },
+    {
       "slug": "merge-two-sorted-lists",
       "name": "Merge Two Sorted Lists",
       "difficulty": "Easy",
