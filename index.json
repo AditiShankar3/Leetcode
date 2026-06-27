@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "find-the-maximum-number-of-elements-in-subset",
+      "name": "Find the Maximum Number of Elements in Subset",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Enumeration"
+      ],
+      "path": "medium/find-the-maximum-number-of-elements-in-subset/solution.cpp",
+      "date_solved": "2026-06-27"
+    },
+    {
       "slug": "sort-list",
       "name": "Sort List",
       "difficulty": "Medium",
