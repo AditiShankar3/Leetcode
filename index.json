@@ -13,6 +13,16 @@
       "date_solved": "2026-06-29"
     },
     {
+      "slug": "big-countries",
+      "name": "Big Countries",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/big-countries/solution.txt",
+      "date_solved": "2026-06-29"
+    },
+    {
       "slug": "find-customer-referee",
       "name": "Find Customer Referee",
       "difficulty": "Easy",
