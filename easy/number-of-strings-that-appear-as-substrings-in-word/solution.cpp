@@ -1,7 +1,7 @@
 /*
 [Description]
 Number of Strings That Appear as Substrings in Word
-https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/submissions/2049910468/
+https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/submissions/2050110268/
 
 Given an array of strings patterns and a string word, return the number of strings in patterns that exist as a substring in word.
 
@@ -55,7 +55,7 @@ public:
     int numOfStrings(vector<string>& patterns, string word) {
         int count=0;
         for(string s:patterns){
-            if(word.contains(s))
+            if(word.find(s)!=string::npos)
                 count++;
         }
         return count;
