@@ -13,6 +13,16 @@
       "date_solved": "2026-06-29"
     },
     {
+      "slug": "find-customer-referee",
+      "name": "Find Customer Referee",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/find-customer-referee/solution.txt",
+      "date_solved": "2026-06-29"
+    },
+    {
       "slug": "number-of-strings-that-appear-as-substrings-in-word",
       "name": "Number of Strings That Appear as Substrings in Word",
       "difficulty": "Easy",
