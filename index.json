@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "number-of-strings-that-appear-as-substrings-in-word",
+      "name": "Number of Strings That Appear as Substrings in Word",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "String"
+      ],
+      "path": "easy/number-of-strings-that-appear-as-substrings-in-word/solution.cpp",
+      "date_solved": "2026-06-29"
+    },
+    {
       "slug": "maximum-total-sum-of-k-selected-elements",
       "name": "Maximum Total Sum of K Selected Elements",
       "difficulty": "Medium",
