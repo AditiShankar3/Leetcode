@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "evaluate-reverse-polish-notation",
+      "name": "Evaluate Reverse Polish Notation",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Stack"
+      ],
+      "path": "medium/evaluate-reverse-polish-notation/solution.cpp",
+      "date_solved": "2026-06-29"
+    },
+    {
       "slug": "number-of-strings-that-appear-as-substrings-in-word",
       "name": "Number of Strings That Appear as Substrings in Word",
       "difficulty": "Easy",
