@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "number-of-substrings-containing-all-three-characters",
+      "name": "Number of Substrings Containing All Three Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "medium/number-of-substrings-containing-all-three-characters/solution.cpp",
+      "date_solved": "2026-07-01"
+    },
+    {
       "slug": "evaluate-reverse-polish-notation",
       "name": "Evaluate Reverse Polish Notation",
       "difficulty": "Medium",
