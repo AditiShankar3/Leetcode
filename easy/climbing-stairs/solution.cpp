@@ -1,7 +1,7 @@
 /*
 [Description]
 Climbing Stairs
-https://leetcode.com/problems/climbing-stairs/
+https://leetcode.com/problems/climbing-stairs/submissions/2058297546/
 
 You are climbing a staircase. It takes n steps to reach the top.
 
@@ -39,17 +39,17 @@ Constraints:
 // [Solution]
 class Solution {
 public:
-    int CS(int n,unordered_map<int,int>& memo){
-        if(n==0 || n==1)
-            return 1;
-        if(memo.find(n)==memo.end()){
-            memo[n]=CS(n-1,memo)+CS(n-2,memo);
-        }
-        return memo[n];
-    }
     int climbStairs(int n) {
-        unordered_map<int,int> memo;
-        return CS(n,memo);
+        if(n<=1)
+            return 1;
+        int prev2=1;
+        int prev1=1;
+        for(int i=2;i<=n;i++){
+            int curr=prev2+prev1;
+            prev2=prev1;
+            prev1=curr;
+        }
+        return prev1;
         
     }
 };
