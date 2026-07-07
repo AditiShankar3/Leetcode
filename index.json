@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+      "name": "Concatenate Non-Zero Digits and Multiply by Sum I",
+      "difficulty": "Easy",
+      "topics": [
+        "Math"
+      ],
+      "path": "easy/concatenate-non-zero-digits-and-multiply-by-sum-i/solution.cpp",
+      "date_solved": "2026-07-07"
+    },
+    {
       "slug": "number-of-substrings-containing-all-three-characters",
       "name": "Number of Substrings Containing All Three Characters",
       "difficulty": "Medium",
