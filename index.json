@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "house-robber",
+      "name": "House Robber",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "medium/house-robber/solution.cpp",
+      "date_solved": "2026-07-08"
+    },
+    {
       "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
       "name": "Concatenate Non-Zero Digits and Multiply by Sum I",
       "difficulty": "Easy",
