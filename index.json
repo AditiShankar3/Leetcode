@@ -12,6 +12,17 @@
       "date_solved": "2026-07-08"
     },
     {
+      "slug": "permutations",
+      "name": "Permutations",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking"
+      ],
+      "path": "medium/permutations/solution.cpp",
+      "date_solved": "2026-07-08"
+    },
+    {
       "slug": "power-of-two",
       "name": "Power of Two",
       "difficulty": "Easy",
