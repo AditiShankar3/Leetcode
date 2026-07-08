@@ -12,6 +12,18 @@
       "date_solved": "2026-07-08"
     },
     {
+      "slug": "power-of-two",
+      "name": "Power of Two",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Bit Manipulation",
+        "Recursion"
+      ],
+      "path": "easy/power-of-two/solution.cpp",
+      "date_solved": "2026-07-08"
+    },
+    {
       "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
       "name": "Concatenate Non-Zero Digits and Multiply by Sum I",
       "difficulty": "Easy",
