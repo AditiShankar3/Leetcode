@@ -1,7 +1,7 @@
 /*
 [Description]
 House Robber
-https://leetcode.com/problems/house-robber/submissions/2060057127/
+https://leetcode.com/problems/house-robber/submissions/2062729033/
 
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
@@ -43,7 +43,7 @@ public:
         int n=nums.size();
         int prev=nums[0];
         int prev2=0;
-        for(int i=0;i<n;i++){
+        for(int i=1;i<n;i++){
             int take=nums[i];
             if(i>1)
                 take+=prev2;
