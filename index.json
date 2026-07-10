@@ -12,6 +12,18 @@
       "date_solved": "2026-07-10"
     },
     {
+      "slug": "n-th-tribonacci-number",
+      "name": "N-th Tribonacci Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Dynamic Programming",
+        "Memoization"
+      ],
+      "path": "easy/n-th-tribonacci-number/solution.cpp",
+      "date_solved": "2026-07-10"
+    },
+    {
       "slug": "house-robber",
       "name": "House Robber",
       "difficulty": "Medium",
