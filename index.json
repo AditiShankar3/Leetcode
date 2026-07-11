@@ -12,6 +12,21 @@
       "date_solved": "2026-07-11"
     },
     {
+      "slug": "maximum-length-of-repeated-subarray",
+      "name": "Maximum Length of Repeated Subarray",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Dynamic Programming",
+        "Sliding Window",
+        "Rolling Hash",
+        "Hash Function"
+      ],
+      "path": "medium/maximum-length-of-repeated-subarray/solution.cpp",
+      "date_solved": "2026-07-11"
+    },
+    {
       "slug": "house-robber-ii",
       "name": "House Robber II",
       "difficulty": "Medium",
