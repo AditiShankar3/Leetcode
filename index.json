@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "longest-common-subsequence",
+      "name": "Longest Common Subsequence",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/longest-common-subsequence/solution.cpp",
+      "date_solved": "2026-07-11"
+    },
+    {
       "slug": "house-robber-ii",
       "name": "House Robber II",
       "difficulty": "Medium",
