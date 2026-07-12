@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "number-of-elapsed-seconds-between-two-times",
+      "name": "Number of Elapsed Seconds Between Two Times",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/number-of-elapsed-seconds-between-two-times/solution.cpp",
+      "date_solved": "2026-07-12"
+    },
+    {
       "slug": "longest-common-subsequence",
       "name": "Longest Common Subsequence",
       "difficulty": "Medium",
