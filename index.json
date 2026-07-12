@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "minimum-total-cost-to-process-all-elements",
+      "name": "Minimum Total Cost to Process All Elements",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/minimum-total-cost-to-process-all-elements/solution.cpp",
+      "date_solved": "2026-07-12"
+    },
+    {
       "slug": "number-of-elapsed-seconds-between-two-times",
       "name": "Number of Elapsed Seconds Between Two Times",
       "difficulty": "Easy",
