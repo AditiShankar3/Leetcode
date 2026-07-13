@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "longest-palindromic-substring",
+      "name": "Longest Palindromic Substring",
+      "difficulty": "Medium",
+      "topics": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/longest-palindromic-substring/solution.cpp",
+      "date_solved": "2026-07-13"
+    },
+    {
       "slug": "minimum-total-cost-to-process-all-elements",
       "name": "Minimum Total Cost to Process All Elements",
       "difficulty": "Medium",
