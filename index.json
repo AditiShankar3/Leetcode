@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "minimum-path-sum",
+      "name": "Minimum Path Sum",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "path": "medium/minimum-path-sum/solution.cpp",
+      "date_solved": "2026-07-15"
+    },
+    {
       "slug": "longest-palindromic-substring",
       "name": "Longest Palindromic Substring",
       "difficulty": "Medium",
