@@ -1,7 +1,7 @@
 /*
 [Description]
 Big Countries
-https://leetcode.com/problems/big-countries/
+https://leetcode.com/problems/article-views-i/submissions/2070184566/
 
 Table: World
 
@@ -60,4 +60,4 @@ Output:
 
 // [Solution]
 # Write your MySQL query statement below
-select name , population, area from World where area>=3000000 or population>=25000000;
+select distinct author_id as id from Views where author_id=viewer_id order by author_id;
