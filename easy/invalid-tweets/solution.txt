@@ -1,7 +1,7 @@
 /*
 [Description]
 Invalid Tweets
-https://leetcode.com/problems/invalid-tweets/submissions/2070194633/
+https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/submissions/2070208333/
 
 Table: Tweets
 
@@ -52,4 +52,4 @@ Tweet 2 has length = 33. It is an invalid tweet.
 
 // [Solution]
 # Write your MySQL query statement below
-select tweet_id from Tweets where char_length(content)>15;
+select uni.unique_id , e.name from Employees as e left join EmployeeUNI as uni on e.id=uni.id;
