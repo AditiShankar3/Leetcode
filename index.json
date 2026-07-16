@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "invalid-tweets",
+      "name": "Invalid Tweets",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/invalid-tweets/solution.txt",
+      "date_solved": "2026-07-16"
+    },
+    {
       "slug": "minimum-path-sum",
       "name": "Minimum Path Sum",
       "difficulty": "Medium",
