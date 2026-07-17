@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "name": "Best Time to Buy and Sell Stock with Cooldown",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "medium/best-time-to-buy-and-sell-stock-with-cooldown/solution.cpp",
+      "date_solved": "2026-07-17"
+    },
+    {
       "slug": "invalid-tweets",
       "name": "Invalid Tweets",
       "difficulty": "Easy",
