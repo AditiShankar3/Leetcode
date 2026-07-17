@@ -1,7 +1,7 @@
 /*
 [Description]
 Best Time to Buy and Sell Stock with Cooldown
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/2070977611/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/2071337474/
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -39,21 +39,19 @@ Constraints:
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        vector<long> ahead(2,0),curr(2,0);
-        ahead[0]=ahead[1]=0;
         int n=prices.size();
-        for(int ind=n-1;ind>=0;ind--){
-            for(int buy=0;buy<=1;buy++)
-            {
-                long profit=0;
+        vector<vector<int>> dp(n+2,vector<int>(2,0));
+        dp[n][0]=dp[n][1]=0;
+        for(int i=n-1;i>=0;i--){
+            for(int buy=0;buy<=1;buy++){
+                int profit=0;
                 if(buy)
-                    profit=max(-prices[ind]+ahead[0],0+ahead[1]);
+                    profit=max(-prices[i]+dp[i+1][0],dp[i+1][1]);
                 else
-                    profit=max(prices[ind]+ahead[1],0+ahead[0]);
-                curr[buy]=profit;
+                    profit=max(prices[i]+dp[i+2][1],dp[i+1][0]);
+                dp[i][buy]=profit;
             }
-            ahead=curr;
         }
-        return ahead[1];
+        return dp[0][1];
     }
 };
