@@ -1,7 +1,7 @@
 /*
 [Description]
 Find Greatest Common Divisor of Array
-https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2071776325/
+https://leetcode.com/problems/count-binary-substrings/submissions/2071931157/
 
 Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.
 
@@ -50,20 +50,22 @@ Constraints:
 // [Solution]
 class Solution {
 public:
-    int gcd(int a,int b){
-        if(a==0 || b==0)
-            return max(a,b);
-        int result=min(a,b);
-        while(result>0){
-            if(a%result==0 && b%result==0)
-                break;
-            result--;
+    int countBinarySubstrings(string s) {
+        if(s.length()==1)
+            return 0;
+        int res=0;
+        int prev=0;
+        int strk=1;
+        for(int i=1;i<s.length();i++){
+            if(s[i]==s[i-1])
+                strk++;
+            else{
+                prev=strk;
+                strk=1;
+            }
+            if(strk<=prev)
+                res++;
         }
-        return result;
-    }
-    int findGCD(vector<int>& nums) {
-        auto min_it=min_element(nums.begin(),nums.end());
-        auto max_it=max_element(nums.begin(),nums.end());
-        return gcd(*min_it,*max_it);
+        return res;
     }
 };
