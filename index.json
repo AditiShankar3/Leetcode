@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "check-if-string-is-transformable-with-substring-sort-operations",
+      "name": "Check If String Is Transformable With Substring Sort Operations",
+      "difficulty": "Hard",
+      "topics": [
+        "String",
+        "Greedy",
+        "Sorting"
+      ],
+      "path": "hard/check-if-string-is-transformable-with-substring-sort-operations/solution.cpp",
+      "date_solved": "2026-07-18"
+    },
+    {
       "slug": "find-greatest-common-divisor-of-array",
       "name": "Find Greatest Common Divisor of Array",
       "difficulty": "Easy",
