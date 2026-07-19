@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "even-number-of-knight-moves",
+      "name": "Even Number of Knight Moves",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/even-number-of-knight-moves/solution.cpp",
+      "date_solved": "2026-07-19"
+    },
+    {
       "slug": "check-if-string-is-transformable-with-substring-sort-operations",
       "name": "Check If String Is Transformable With Substring Sort Operations",
       "difficulty": "Hard",
