@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "convert-1d-array-into-2d-array",
+      "name": "Convert 1D Array Into 2D Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "path": "easy/convert-1d-array-into-2d-array/solution.cpp",
+      "date_solved": "2026-07-20"
+    },
+    {
       "slug": "shift-2d-grid",
       "name": "Shift 2D Grid",
       "difficulty": "Easy",
