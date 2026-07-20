@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "shift-2d-grid",
+      "name": "Shift 2D Grid",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "path": "easy/shift-2d-grid/solution.cpp",
+      "date_solved": "2026-07-20"
+    },
+    {
       "slug": "even-number-of-knight-moves",
       "name": "Even Number of Knight Moves",
       "difficulty": "Easy",
