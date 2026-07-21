@@ -1,7 +1,7 @@
 /*
 [Description]
 Invalid Tweets
-https://leetcode.com/problems/product-sales-analysis-i/submissions/2076197631/
+https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/submissions/2076225749/
 
 Table: Tweets
 
@@ -52,4 +52,4 @@ Tweet 2 has length = 33. It is an invalid tweet.
 
 // [Solution]
 # Write your MySQL query statement below
-select p.product_name, s.year, s.price from Sales as s inner join Product as p on p.product_id=s.product_id;
+select v.customer_id , count(*) as count_no_trans from Visits as v left join Transactions as t on v.visit_id=t.visit_id where t.transaction_id is NULL group by v.customer_id;
