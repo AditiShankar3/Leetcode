@@ -1,7 +1,7 @@
 /*
 [Description]
 Invalid Tweets
-https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/submissions/2070208333/
+https://leetcode.com/problems/product-sales-analysis-i/submissions/2076197631/
 
 Table: Tweets
 
@@ -52,4 +52,4 @@ Tweet 2 has length = 33. It is an invalid tweet.
 
 // [Solution]
 # Write your MySQL query statement below
-select uni.unique_id , e.name from Employees as e left join EmployeeUNI as uni on e.id=uni.id;
+select p.product_name, s.year, s.price from Sales as s inner join Product as p on p.product_id=s.product_id;
