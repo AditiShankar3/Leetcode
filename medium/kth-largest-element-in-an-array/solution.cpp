@@ -1,7 +1,7 @@
 /*
 [Description]
 Kth Largest Element in an Array
-https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2077387110/
+https://leetcode.com/problems/k-closest-points-to-origin/submissions/2077504688/
 
 Given an integer array nums and an integer k, return the kth largest element in the array.
 
@@ -32,20 +32,25 @@ Constraints:
 // [Solution]
 class Solution {
 public:
-    int findKthLargest(vector<int>& nums, int k) {
-        //sort(nums.begin(),nums.end(),greater<int>());
-        //return nums[k-1];
+    vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
+        vector<vector<int>> ans;
         priority_queue<
-            int,
-            vector<int>,
-            greater<int>
-        > pq;
-        for(int n:nums){
-            pq.push(n);
-            if(pq.size()>k)
-                pq.pop();
-        }
-        return pq.top();
+            pair<int,vector<int>>,
+            vector<pair<int,vector<int>>>
+        > min_heap; //max_heap
+        for(int i=0;i<points.size();i++){
+            int x = points[i][0];
+            int y = points[i][1];
 
+            int dis = x*x + y*y;
+            min_heap.push({dis,{points[i][0],points[i][1]}});
+            if(min_heap.size()>k)
+                min_heap.pop();
+        }
+        while(!min_heap.empty()){
+            ans.push_back(min_heap.top().second);
+            min_heap.pop();
+        }
+        return ans;
     }
 };
