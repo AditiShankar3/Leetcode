@@ -15,6 +15,23 @@
       "date_solved": "2026-07-22"
     },
     {
+      "slug": "top-k-frequent-words",
+      "name": "Top K Frequent Words",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Trie",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting"
+      ],
+      "path": "medium/top-k-frequent-words/solution.cpp",
+      "date_solved": "2026-07-22"
+    },
+    {
       "slug": "convert-1d-array-into-2d-array",
       "name": "Convert 1D Array Into 2D Array",
       "difficulty": "Easy",
