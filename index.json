@@ -16,6 +16,17 @@
       "date_solved": "2026-07-23"
     },
     {
+      "slug": "last-stone-weight",
+      "name": "Last Stone Weight",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Heap (Priority Queue)"
+      ],
+      "path": "easy/last-stone-weight/solution.cpp",
+      "date_solved": "2026-07-23"
+    },
+    {
       "slug": "kth-largest-element-in-an-array",
       "name": "Kth Largest Element in an Array",
       "difficulty": "Medium",
