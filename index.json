@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "slug": "task-scheduler",
+      "name": "Task Scheduler",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Counting"
+      ],
+      "path": "medium/task-scheduler/solution.cpp",
+      "date_solved": "2026-07-24"
+    },
+    {
       "slug": "kth-largest-element-in-a-stream",
       "name": "Kth Largest Element in a Stream",
       "difficulty": "Easy",
