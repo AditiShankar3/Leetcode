@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "maximum-product-of-two-digits",
+      "name": "Maximum Product of Two Digits",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Sorting"
+      ],
+      "path": "easy/maximum-product-of-two-digits/solution.cpp",
+      "date_solved": "2026-07-25"
+    },
+    {
       "slug": "task-scheduler",
       "name": "Task Scheduler",
       "difficulty": "Medium",
