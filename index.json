@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "name": "Maximum Product of Two Elements in an Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sorting",
+        "Heap (Priority Queue)"
+      ],
+      "path": "easy/maximum-product-of-two-elements-in-an-array/solution.cpp",
+      "date_solved": "2026-07-27"
+    },
+    {
       "slug": "maximum-product-of-two-digits",
       "name": "Maximum Product of Two Digits",
       "difficulty": "Easy",
