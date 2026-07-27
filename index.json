@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "balanced-binary-tree",
+      "name": "Balanced Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/balanced-binary-tree/solution.cpp",
+      "date_solved": "2026-07-27"
+    },
+    {
       "slug": "maximum-depth-of-binary-tree",
       "name": "Maximum Depth of Binary Tree",
       "difficulty": "Easy",
