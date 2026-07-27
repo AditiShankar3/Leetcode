@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "maximum-depth-of-binary-tree",
+      "name": "Maximum Depth of Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/maximum-depth-of-binary-tree/solution.cpp",
+      "date_solved": "2026-07-27"
+    },
+    {
       "slug": "maximum-product-of-two-elements-in-an-array",
       "name": "Maximum Product of Two Elements in an Array",
       "difficulty": "Easy",
