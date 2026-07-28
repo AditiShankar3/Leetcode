@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "smallest-palindromic-rearrangement-i",
+      "name": "Smallest Palindromic Rearrangement I",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Sorting",
+        "Counting Sort"
+      ],
+      "path": "medium/smallest-palindromic-rearrangement-i/solution.cpp",
+      "date_solved": "2026-07-28"
+    },
+    {
       "slug": "balanced-binary-tree",
       "name": "Balanced Binary Tree",
       "difficulty": "Easy",
