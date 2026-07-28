@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "count-salary-categories",
+      "name": "Count Salary Categories",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/count-salary-categories/solution.txt",
+      "date_solved": "2026-07-28"
+    },
+    {
       "slug": "smallest-palindromic-rearrangement-i",
       "name": "Smallest Palindromic Rearrangement I",
       "difficulty": "Medium",
