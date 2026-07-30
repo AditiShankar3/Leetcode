@@ -1,7 +1,7 @@
 /*
 [Description]
 Symmetric Tree
-https://leetcode.com/problems/symmetric-tree/submissions/2031001439/
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/2087829336/
 
 Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 
@@ -45,14 +45,26 @@ Follow up: Could you solve it both recursively and iteratively?
  */
 class Solution {
 public:
-    bool isMirror(TreeNode* n1,TreeNode* n2){
-        if(n1==NULL && n2==NULL)
-            return true;
-        if(n1==NULL || n2==NULL)
-            return false;
-        return n1->val==n2->val && isMirror(n1->left,n2->right) && isMirror(n1->right, n2->left);
+    TreeNode* helper(vector<int>& nums,int left,int right){
+        if(left>right)
+            return NULL;
+        int mid=left+(right-left)/2;
+        TreeNode* root=new TreeNode(nums[mid]);
+        root->left=helper(nums,left,mid-1);
+        root->right=helper(nums,mid+1,right);
+        return root;
     }
-    bool isSymmetric(TreeNode* root) {
-        return isMirror(root->left,root->right);
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+        /*
+        To convert a sorted array to a binary search tree, we can use the following recursive algorithm:
+
+        If the array is empty, return null.
+        Find the middle element of the array and create a new node with its value.
+        Recursively construct the left subtree using the left half of the array.
+        Recursively construct the right subtree using the right half of the array.
+        Set the left and right child of the node created in step 2 to the root of the left and right subtree respectively.
+        Return the root node.
+        */
+        return helper(nums,0,nums.size()-1);
     }
 };
