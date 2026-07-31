@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "slug": "minimum-number-of-pushes-to-type-word-ii",
+      "name": "Minimum Number of Pushes to Type Word II",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Greedy",
+        "Sorting",
+        "Counting"
+      ],
+      "path": "medium/minimum-number-of-pushes-to-type-word-ii/solution.cpp",
+      "date_solved": "2026-07-31"
+    },
+    {
       "slug": "count-salary-categories",
       "name": "Count Salary Categories",
       "difficulty": "Medium",
