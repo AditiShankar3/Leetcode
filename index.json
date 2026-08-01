@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "slug": "predict-the-winner",
+      "name": "Predict the Winner",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Recursion",
+        "Game Theory"
+      ],
+      "path": "medium/predict-the-winner/solution.cpp",
+      "date_solved": "2026-08-01"
+    },
+    {
       "slug": "minimum-number-of-pushes-to-type-word-ii",
       "name": "Minimum Number of Pushes to Type Word II",
       "difficulty": "Medium",
