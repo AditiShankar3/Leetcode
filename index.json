@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "combine-two-tables",
+      "name": "Combine Two Tables",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/combine-two-tables/solution.txt",
+      "date_solved": "2026-08-02"
+    },
+    {
       "slug": "predict-the-winner",
       "name": "Predict the Winner",
       "difficulty": "Medium",
