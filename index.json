@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "stone-game-iii",
+      "name": "Stone Game III",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Game Theory"
+      ],
+      "path": "hard/stone-game-iii/solution.cpp",
+      "date_solved": "2026-08-03"
+    },
+    {
       "slug": "combine-two-tables",
       "name": "Combine Two Tables",
       "difficulty": "Easy",
