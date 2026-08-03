@@ -14,6 +14,19 @@
       "date_solved": "2026-08-03"
     },
     {
+      "slug": "stone-game",
+      "name": "Stone Game",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Game Theory"
+      ],
+      "path": "medium/stone-game/solution.cpp",
+      "date_solved": "2026-08-03"
+    },
+    {
       "slug": "combine-two-tables",
       "name": "Combine Two Tables",
       "difficulty": "Easy",
