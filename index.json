@@ -28,6 +28,18 @@
       "date_solved": "2026-08-03"
     },
     {
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "name": "Binary Tree Zigzag Level Order Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "medium/binary-tree-zigzag-level-order-traversal/solution.cpp",
+      "date_solved": "2026-08-03"
+    },
+    {
       "slug": "stone-game",
       "name": "Stone Game",
       "difficulty": "Medium",
