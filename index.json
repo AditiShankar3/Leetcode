@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "minimum-operations-to-make-array-non-decreasing",
+      "name": "Minimum Operations to Make Array Non Decreasing",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Greedy"
+      ],
+      "path": "medium/minimum-operations-to-make-array-non-decreasing/solution.cpp",
+      "date_solved": "2026-08-04"
+    },
+    {
       "slug": "maximize-pair-strength-using-gcd",
       "name": "Maximize Pair Strength Using GCD",
       "difficulty": "Easy",
