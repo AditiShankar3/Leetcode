@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "maximize-pair-strength-using-gcd",
+      "name": "Maximize Pair Strength Using GCD",
+      "difficulty": "Easy",
+      "topics": [],
+      "path": "easy/maximize-pair-strength-using-gcd/solution.cpp",
+      "date_solved": "2026-08-04"
+    },
+    {
       "slug": "binary-tree-maximum-path-sum",
       "name": "Binary Tree Maximum Path Sum",
       "difficulty": "Hard",
