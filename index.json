@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "confirmation-rate",
+      "name": "Confirmation Rate",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/confirmation-rate/solution.txt",
+      "date_solved": "2026-08-05"
+    },
+    {
       "slug": "managers-with-at-least-5-direct-reports",
       "name": "Managers with at Least 5 Direct Reports",
       "difficulty": "Medium",
