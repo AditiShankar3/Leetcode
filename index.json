@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "managers-with-at-least-5-direct-reports",
+      "name": "Managers with at Least 5 Direct Reports",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/managers-with-at-least-5-direct-reports/solution.txt",
+      "date_solved": "2026-08-05"
+    },
+    {
       "slug": "minimum-operations-to-make-array-non-decreasing",
       "name": "Minimum Operations to Make Array Non Decreasing",
       "difficulty": "Medium",
