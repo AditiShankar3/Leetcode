@@ -1,7 +1,7 @@
 /*
 [Description]
 Smallest Divisible Digit Product I
-https://leetcode.com/problems/smallest-divisible-digit-product-i/submissions/2096141217/
+https://leetcode.com/problems/smallest-divisible-digit-product-i/submissions/2096406343/
 
 You are given two integers n and t. Return the smallest number greater than or equal to n such that the product of its digits is divisible by t.
 
@@ -42,19 +42,10 @@ Constraints:
 class Solution {
 public:
     int smallestNumber(int n, int t) {
-        int prev=n;
-        while(true){
-            int prod=1;
-            int temp=prev;
-            while(temp>0){
-                int dig=temp%10;
-                prod*=dig;
-                temp=temp/10;
-            }
-            if(prod%t==0)
-                break;
-            prev++;
-        }
-        return prev;
+        auto[q,r]=div(n,10);
+        int req=t/gcd(q+(10-q)/10,t);
+        int nxt=((r+req-1)/req*req);
+        int x=nxt-(nxt-10)*(nxt/10);
+        return q*10+x;
     }
 };
