@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "not-boring-movies",
+      "name": "Not Boring Movies",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/not-boring-movies/solution.txt",
+      "date_solved": "2026-08-06"
+    },
+    {
       "slug": "confirmation-rate",
       "name": "Confirmation Rate",
       "difficulty": "Medium",
