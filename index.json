@@ -11,6 +11,17 @@
       "date_solved": "2026-08-06"
     },
     {
+      "slug": "smallest-divisible-digit-product-i",
+      "name": "Smallest Divisible Digit Product I",
+      "difficulty": "Easy",
+      "topics": [
+        "Math",
+        "Enumeration"
+      ],
+      "path": "easy/smallest-divisible-digit-product-i/solution.cpp",
+      "date_solved": "2026-08-06"
+    },
+    {
       "slug": "confirmation-rate",
       "name": "Confirmation Rate",
       "difficulty": "Medium",
