@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "name": "Vertical Order Traversal of a Binary Tree",
+      "difficulty": "Hard",
+      "topics": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Sorting",
+        "Binary Tree"
+      ],
+      "path": "hard/vertical-order-traversal-of-a-binary-tree/solution.cpp",
+      "date_solved": "2026-08-06"
+    },
+    {
       "slug": "not-boring-movies",
       "name": "Not Boring Movies",
       "difficulty": "Easy",
