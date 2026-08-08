@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "merge-intervals",
+      "name": "Merge Intervals",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Sorting",
+        "Quicksort"
+      ],
+      "path": "medium/merge-intervals/solution.cpp",
+      "date_solved": "2026-08-08"
+    },
+    {
       "slug": "best-time-to-buy-and-sell-stock",
       "name": "Best Time to Buy and Sell Stock",
       "difficulty": "Easy",
