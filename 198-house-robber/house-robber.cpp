@@ -1,8 +1,6 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        //basically sum of non adjacent elements 
-        // either u r picking one number and the previous's previous number or u r just picking the previous number 
         int n=nums.size();
         int prev=nums[0];
         int prev2=0;
