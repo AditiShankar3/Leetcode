@@ -1,13 +1,11 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_map<int,int> freq;
+        set<int> myset;
         for(int i=0;i<nums.size();i++)
-            freq[nums[i]]++;
-        for (const auto& [key, value] : freq) {
-            if(value>1)
-                return true;
-        }
+            myset.insert(nums[i]);
+        if(nums.size()!=myset.size())
+            return true;
         return false;
     }
 };
