@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "best-time-to-buy-and-sell-stock",
+      "name": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "path": "easy/best-time-to-buy-and-sell-stock/solution.cpp",
+      "date_solved": "2026-08-08"
+    },
+    {
       "slug": "vertical-order-traversal-of-a-binary-tree",
       "name": "Vertical Order Traversal of a Binary Tree",
       "difficulty": "Hard",
