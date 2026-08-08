@@ -1,7 +1,7 @@
 /*
 [Description]
 Longest Consecutive Sequence
-https://leetcode.com/problems/longest-consecutive-sequence/
+https://leetcode.com/problems/longest-consecutive-sequence/submissions/2098890989/
 
 Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
@@ -40,20 +40,17 @@ Constraints:
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        //int lb=0;
         int longest=0;
-        //mergesort(nums,lb,ub);
-        unordered_set<int> num{nums.begin(),nums.end()};
-        for(int n:num)
-        {
-            if(num.find(n-1)==num.end()){
-                int current=n;
+        unordered_set<int> map(nums.begin(),nums.end());
+        for(int i:map){
+            if(map.find(i-1)==map.end()){
                 int count=1;
-                while(num.find(current+1)!=num.end()){
-                    current++;
+                int x=i;
+                while(map.find(x+1)!=map.end()){
                     count++;
+                    x++;
                 }
-                longest=max(longest,count);
+                longest=max(count,longest);
             }
         }
         return longest;
