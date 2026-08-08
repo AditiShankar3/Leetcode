@@ -1,7 +1,7 @@
 /*
 [Description]
 Group Anagrams
-https://leetcode.com/problems/group-anagrams/
+https://leetcode.com/problems/group-anagrams/submissions/2098779085/
 
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 
@@ -46,19 +46,17 @@ Constraints:
 // [Solution]
 class Solution {
 public:
-    vector<vector<string>> groupAnagrams(vector<string>& strs) 
-    {
-        unordered_map<string,vector<string>> mp;
-
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string,vector<string>> map;
         for(auto x:strs){
             string word=x;
             sort(word.begin(),word.end());
-            mp[word].push_back(x);
+            map[word].push_back(x);
         }
-        vector<vector<string>> result;
-        for(auto x:mp){
-            result.push_back(x.second);
+        vector<vector<string>> res;
+        for(auto x:map){
+            res.push_back(x.second);
         }
-        return result;
+        return res;
     }
 };
