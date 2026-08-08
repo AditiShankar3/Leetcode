@@ -1,7 +1,7 @@
 /*
 [Description]
 Product of Array Except Self
-https://leetcode.com/problems/product-of-array-except-self/
+https://leetcode.com/problems/product-of-array-except-self/submissions/2098940272/
 
 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 
@@ -38,24 +38,18 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n=nums.size();
-        vector<int> left(n,1), right(n,1),result(n,0);
-        for(int i=0;i<n;i++)
-        {
-            if(i==0)
-            {
-                left[i]=1;
-                continue;
-            }
-            left[i]=left[i-1]*nums[i-1];
+        vector<int> ans(n,1);
+        int curr=1;
+        for(int i=0;i<n;i++){
+            ans[i]*=curr;
+            curr*=nums[i];
         }
-        for(int i=n-2;i>=0;i--)
-        {
-            right[i]=right[i+1]*nums[i+1];
+        curr=1;
+        for(int i=n-1;i>=0;i--){
+            ans[i]*=curr;
+            curr*=nums[i];
         }
-        for(int i=0;i<n;i++)
-        {
-            result[i]=left[i]*right[i];
-        }
-        return result;
+        return ans;
+
     }
 };
