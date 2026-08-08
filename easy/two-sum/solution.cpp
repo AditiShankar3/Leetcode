@@ -1,9 +1,9 @@
 /*
 [Description]
 Two Sum
-https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/two-sum/submissions/2098709590/
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -47,19 +47,16 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> mp;
-        for(int i=0;i<nums.size();i++)
-        {
-            mp[nums[i]]=i;
+        unordered_map<int,int> map;
+        for(int i=0;i<nums.size();i++){
+            map[nums[i]]=i;
         }
-        for(int i=0;i<nums.size();i++)
-        {
-            int y=target-nums[i];
-            if(mp.count(y) && mp[y]!=i)
-                return {i,mp[y]};
+        for(int i=0;i<nums.size();i++){
+            int complement=target-nums[i];
+            if(map.find(complement)!=map.end() && map[complement]!=i){
+                return {i,map[complement]};
+            }
         }
         return {};
-        
     }
-
 };
