@@ -1,6 +1,14 @@
 {
   "items": [
     {
+      "slug": "weighted-sum-of-a-tree",
+      "name": "Weighted Sum of a Tree",
+      "difficulty": "Medium",
+      "topics": [],
+      "path": "medium/weighted-sum-of-a-tree/solution.cpp",
+      "date_solved": "2026-08-09"
+    },
+    {
       "slug": "binary-tree-level-order-traversal",
       "name": "Binary Tree Level Order Traversal",
       "difficulty": "Medium",
