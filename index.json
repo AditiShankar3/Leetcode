@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "project-employees-i",
+      "name": "Project Employees I",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/project-employees-i/solution.txt",
+      "date_solved": "2026-08-10"
+    },
+    {
       "slug": "weighted-sum-of-a-tree",
       "name": "Weighted Sum of a Tree",
       "difficulty": "Medium",
