@@ -1,30 +1,19 @@
 class Solution {
 public:
     int missingInteger(vector<int>& nums) {
-        int maxi=0;
-        int prev=nums[0];
-        int sum=0;
-        for(int i=1;i<nums.size();i++){
-            int curr=nums[i];
-            if(curr-prev==1)
-            {
-                sum+=prev;
-            }
-            else{
-                sum+=prev;
-                maxi=max(sum,maxi);
+        int n=nums.size();
+        int maxi=nums[0];
+        for(int i=1;i<n;i++){
+            if(nums[i]==nums[i-1]+1)
+                maxi+=nums[i];
+            else
                 break;
-            }
-            prev=curr;
         }
-        if(prev==nums[nums.size()-1] && maxi==0){
-            //entire array is a sequence; 
-            sum+=prev;
-            maxi=sum;
-        }
-        while(find(nums.begin(),nums.end(),maxi)!=nums.end()){
+        vector<bool> hash(1276,false);
+        for(int i:nums)
+            hash[i]=true;
+        while(hash[maxi])
             maxi++;
-        }
         return maxi;
     }
 };
