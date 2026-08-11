@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "integer-to-roman",
+      "name": "Integer to Roman",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Math",
+        "String"
+      ],
+      "path": "medium/integer-to-roman/solution.cpp",
+      "date_solved": "2026-08-11"
+    },
+    {
       "slug": "project-employees-i",
       "name": "Project Employees I",
       "difficulty": "Easy",
