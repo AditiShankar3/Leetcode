@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "queries-quality-and-percentage",
+      "name": "Queries Quality and Percentage",
+      "difficulty": "Easy",
+      "topics": [
+        "Database"
+      ],
+      "path": "easy/queries-quality-and-percentage/solution.txt",
+      "date_solved": "2026-08-12"
+    },
+    {
       "slug": "integer-to-roman",
       "name": "Integer to Roman",
       "difficulty": "Medium",
