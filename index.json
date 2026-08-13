@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "unique-paths-ii",
+      "name": "Unique Paths II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "path": "medium/unique-paths-ii/solution.cpp",
+      "date_solved": "2026-08-13"
+    },
+    {
       "slug": "queries-quality-and-percentage",
       "name": "Queries Quality and Percentage",
       "difficulty": "Easy",
