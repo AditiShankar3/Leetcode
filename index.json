@@ -12,6 +12,16 @@
       "date_solved": "2026-08-13"
     },
     {
+      "slug": "reverse-integer",
+      "name": "Reverse Integer",
+      "difficulty": "Medium",
+      "topics": [
+        "Math"
+      ],
+      "path": "medium/reverse-integer/solution.cpp",
+      "date_solved": "2026-08-13"
+    },
+    {
       "slug": "unique-paths-ii",
       "name": "Unique Paths II",
       "difficulty": "Medium",
