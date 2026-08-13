@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "edit-distance",
+      "name": "Edit Distance",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Dynamic Programming"
+      ],
+      "path": "medium/edit-distance/solution.cpp",
+      "date_solved": "2026-08-13"
+    },
+    {
       "slug": "unique-paths-ii",
       "name": "Unique Paths II",
       "difficulty": "Medium",
