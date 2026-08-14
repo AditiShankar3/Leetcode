@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "maximum-length-substring-with-two-occurrences",
+      "name": "Maximum Length Substring With Two Occurrences",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "path": "easy/maximum-length-substring-with-two-occurrences/solution.cpp",
+      "date_solved": "2026-08-14"
+    },
+    {
       "slug": "edit-distance",
       "name": "Edit Distance",
       "difficulty": "Medium",
