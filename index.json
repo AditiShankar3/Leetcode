@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "find-the-largest-almost-missing-integer",
+      "name": "Find the Largest Almost Missing Integer",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "path": "easy/find-the-largest-almost-missing-integer/solution.cpp",
+      "date_solved": "2026-08-18"
+    },
+    {
       "slug": "maximum-length-substring-with-two-occurrences",
       "name": "Maximum Length Substring With Two Occurrences",
       "difficulty": "Easy",
