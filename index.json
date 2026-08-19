@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "cinema-seat-allocation",
+      "name": "Cinema Seat Allocation",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Bit Manipulation"
+      ],
+      "path": "medium/cinema-seat-allocation/solution.cpp",
+      "date_solved": "2026-08-19"
+    },
+    {
       "slug": "find-the-largest-almost-missing-integer",
       "name": "Find the Largest Almost Missing Integer",
       "difficulty": "Easy",
