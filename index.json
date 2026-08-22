@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "monthly-transactions-i",
+      "name": "Monthly Transactions I",
+      "difficulty": "Medium",
+      "topics": [
+        "Database"
+      ],
+      "path": "medium/monthly-transactions-i/solution.txt",
+      "date_solved": "2026-08-22"
+    },
+    {
       "slug": "cinema-seat-allocation",
       "name": "Cinema Seat Allocation",
       "difficulty": "Medium",
