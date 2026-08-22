@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "slug": "find-kth-largest-xor-coordinate-value",
+      "name": "Find Kth Largest XOR Coordinate Value",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Divide and Conquer",
+        "Bit Manipulation",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Matrix",
+        "Prefix Sum",
+        "Quickselect"
+      ],
+      "path": "medium/find-kth-largest-xor-coordinate-value/solution.cpp",
+      "date_solved": "2026-08-22"
+    },
+    {
       "slug": "monthly-transactions-i",
       "name": "Monthly Transactions I",
       "difficulty": "Medium",
