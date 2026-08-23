@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "sum-game",
+      "name": "Sum Game",
+      "difficulty": "Medium",
+      "topics": [
+        "Math",
+        "String",
+        "Greedy",
+        "Game Theory"
+      ],
+      "path": "medium/sum-game/solution.cpp",
+      "date_solved": "2026-08-23"
+    },
+    {
       "slug": "find-kth-largest-xor-coordinate-value",
       "name": "Find Kth Largest XOR Coordinate Value",
       "difficulty": "Medium",
