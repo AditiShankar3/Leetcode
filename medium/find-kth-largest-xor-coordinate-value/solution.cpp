@@ -1,7 +1,7 @@
 /*
 [Description]
 Find Kth Largest XOR Coordinate Value
-https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/submissions/2116097927/
+https://leetcode.com/problems/widest-possible-fence/submissions/2117916187/
 
 You are given a 2D matrix of size m x n, consisting of non-negative integers. You are also given an integer k.
 
@@ -46,40 +46,28 @@ Constraints:
 // [Solution]
 class Solution {
 public:
-    int kthLargestValue(vector<vector<int>>& matrix, int k) {
-        int m=matrix.size();
-        int n=matrix[0].size();
-        if(m==1 && n==1)
-            return matrix[0][0];
-        priority_queue<
-            int,
-            vector<int>,
-            greater<int>>pq;
-        vector<int> prev(n);
-        prev[0]=matrix[0][0];
-        pq.push(prev[0]);
-        for(int i=1;i<n;i++)
+    int maximumWidth(vector<int>& planks) {
+        typedef long long ll;
+        unordered_map<ll,int> freq,mpp;
+        for(auto it:planks)
+            freq[it]++;
+        vector<pair<ll,int>> vec(freq.begin(),freq.end());
+        for(auto it:vec)
+            mpp[it.first]=it.second;
+        int n=vec.size();
+        for(int i=0;i<n;i++)
         {
-            prev[i]=prev[i-1]^matrix[0][i];
-            pq.push(prev[i]);
-            if(pq.size()>k)
-                pq.pop();
-        }
-        for(int i=1;i<m;i++){
-            vector<int> curr(n);
-            for(int j=0;j<n;j++){
-                if(j==0){
-                    curr[j]=prev[j]^matrix[i][j];
-                }
-                else{
-                    curr[j]=prev[j]^curr[j-1]^prev[j-1]^matrix[i][j];
-                }
-                pq.push(curr[j]);
-                if(pq.size()>k)
-                    pq.pop();
+            for(int j=i;j<n;j++){
+                ll value=vec[i].first+vec[j].first;
+                if(i==j)
+                    mpp[value]+=vec[i].second/2;
+                else
+                    mpp[value]+=min(vec[i].second,vec[j].second);
             }
-            prev=curr;
         }
-        return pq.top();
+        int res=1;
+        for(auto it:mpp)
+            res=max(res,it.second);
+        return res;
     }
 };
