@@ -14,6 +14,20 @@
       "date_solved": "2026-09-02"
     },
     {
+      "slug": "subtree-of-another-tree",
+      "name": "Subtree of Another Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "String Matching",
+        "Binary Tree",
+        "Hash Function"
+      ],
+      "path": "easy/subtree-of-another-tree/solution.cpp",
+      "date_solved": "2026-09-02"
+    },
+    {
       "slug": "sum-game",
       "name": "Sum Game",
       "difficulty": "Medium",
