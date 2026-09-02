@@ -355,7 +355,8 @@
       "topics": [
         "Tree",
         "Depth-First Search",
-        "Binary Tree"
+        "Binary Tree",
+        "DP on Trees"
       ],
       "path": "easy/diameter-of-binary-tree/solution.cpp",
       "date_solved": "2026-08-01"
