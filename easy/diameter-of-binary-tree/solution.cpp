@@ -1,7 +1,7 @@
 /*
 [Description]
 Diameter of Binary Tree
-https://leetcode.com/problems/diameter-of-binary-tree/submissions/2090033040/
+https://leetcode.com/problems/diameter-of-binary-tree/submissions/2128012398/
 
 Given the root of a binary tree, return the length of the diameter of the tree.
 
@@ -29,7 +29,7 @@ Constraints:
 
 [Metadata]
 - Difficulty: Easy
-- Topics: Tree, Depth-First Search, Binary Tree
+- Topics: Tree, Depth-First Search, Binary Tree, DP on Trees
 - Slug: diameter-of-binary-tree
 */
 
@@ -53,11 +53,11 @@ public:
         int lh=height(node->left,diameter);
         int rh=height(node->right,diameter);
         diameter=max(diameter,lh+rh);
-        return (1+max(lh,rh));
+        return 1+max(lh,rh);
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        int diameter=0;
-        height(root,diameter);
-        return diameter;
+        int diamter=0;
+        height(root,diamter);
+        return diamter;
     }
 };
