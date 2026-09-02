@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "slug": "construct-uniform-parity-array-i",
+      "name": "Construct Uniform Parity Array I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Math"
+      ],
+      "path": "easy/construct-uniform-parity-array-i/solution.cpp",
+      "date_solved": "2026-09-02"
+    },
+    {
       "slug": "invert-binary-tree",
       "name": "Invert Binary Tree",
       "difficulty": "Easy",
