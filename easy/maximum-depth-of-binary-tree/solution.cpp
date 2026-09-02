@@ -1,7 +1,7 @@
 /*
 [Description]
 Maximum Depth of Binary Tree
-https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/2083577932/
+https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 
 Given the root of a binary tree, return its maximum depth.
 
