@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "slug": "invert-binary-tree",
+      "name": "Invert Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "path": "easy/invert-binary-tree/solution.cpp",
+      "date_solved": "2026-09-02"
+    },
+    {
       "slug": "sum-game",
       "name": "Sum Game",
       "difficulty": "Medium",
