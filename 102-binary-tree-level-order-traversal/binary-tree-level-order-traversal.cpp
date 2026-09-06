@@ -17,20 +17,20 @@ public:
         queue<TreeNode*> q;
         vector<vector<int>> res;
         q.push(root);
-        int currLevel=0;
+        int currLev=0;
         while(!q.empty()){
             int len=q.size();
             res.push_back({});
             for(int i=0;i<len;i++){
                 TreeNode* node=q.front();
                 q.pop();
-                res[currLevel].push_back(node->val);
+                res[currLev].push_back(node->val);
                 if(node->left!=NULL)
                     q.push(node->left);
                 if(node->right!=NULL)
                     q.push(node->right);
             }
-            currLevel++;
+            currLev++;
         }
         return res;
     }
