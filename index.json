@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "slug": "count-commas-in-range-ii",
+      "name": "Count Commas in Range II",
+      "difficulty": "Medium",
+      "topics": [
+        "Math"
+      ],
+      "path": "medium/count-commas-in-range-ii/solution.cpp",
+      "date_solved": "2026-09-09"
+    },
+    {
       "slug": "construct-uniform-parity-array-i",
       "name": "Construct Uniform Parity Array I",
       "difficulty": "Easy",
