@@ -3,17 +3,17 @@ public:
     int tribonacci(int n) {
         if(n==0)
             return 0;
-        if(n==1 || n==2)
+        if(n==1||n==2)
             return 1;
-        int prev3=0;
-        int prev2=1;
-        int prev=1;
+        int p1=0;
+        int p2=1;
+        int p3=1;
         for(int i=3;i<=n;i++){
-            int curr=prev+prev2+prev3;
-            prev3=prev2;
-            prev2=prev;
-            prev=curr;
+            int curr=p1+p2+p3;
+            p1=p2;
+            p2=p3;
+            p3=curr;
         }
-        return prev;
+        return p3;
     }
 };
